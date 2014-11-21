@@ -7,7 +7,7 @@ def battle(user_attack, comp_attack)
   # All possible outcomes of 'battle'
   r_s = '=> Rock CRUSHES Scissors!'
   r_l = '=> Rock CRUSHES Lizard!'
-  p_sp = '=> Paper DISPROVES Spock!'
+  p>sp = '=> Paper DISPROVES Spock!'
   p_r = '=> Paper COVERS Rock!'
   s_p = '=> Scissors CUTS Paper!'
   s_l = '=> Scissors DECAPITATES Lizard!'
@@ -67,7 +67,7 @@ def battle(user_attack, comp_attack)
 
   elsif user_attack == 'p' && comp_attack == 5
     puts "#{user_p} #{comp_sp}"
-    puts "#{p_sp} #{win_loss[:win]}"
+    puts "#{p>sp} #{win_loss[:win]}"
 
   elsif user_attack == 's' && comp_attack == 1
     puts "#{user_s} #{comp_r}"
@@ -113,7 +113,7 @@ def battle(user_attack, comp_attack)
 
   elsif user_attack == 'sp' && comp_attack == 2
     puts "#{user_sp} #{comp_p}"
-    puts "#{p_sp} #{win_loss[:loss]}"
+    puts "#{p>sp} #{win_loss[:loss]}"
 
   elsif user_attack == 'sp' && comp_attack == 3
     puts "#{user_sp} #{comp_s}"
